@@ -1,3 +1,6 @@
-sentence = input("문장을 입력하세요 : ")
-
-print(sentence)
+while True:
+    sentence = input("문장을 입력하세요: ")
+    if sentence == '!':
+        print("프로그램을 종료합니다.")
+        break
+    print(sentence)
